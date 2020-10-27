@@ -1,0 +1,3 @@
+global: {}
+tk-go-10-26:
+  replicaCount: 1
