@@ -1,0 +1,13 @@
+global: {}
+
+argocd-config:
+  repoUrl: "https://github.com/csantanapr-cn-toolkit-tests/gitops-10-26"
+
+  project: tk-apps
+
+  applicationTargets:
+    - targetRevision: test
+      targetNamespace: tk-demo-test
+      applications:
+        - name: tk-go-10-26
+
